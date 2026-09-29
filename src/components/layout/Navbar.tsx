@@ -1,4 +1,4 @@
-const navigation = ['Inicio', 'Semillero', 'Proyectos', 'Comunidad']
+const navigation = ['Inicio', 'Semillero', 'Noticias', 'Proyectos', 'Comunidad']
 
 export function Navbar() {
   return (

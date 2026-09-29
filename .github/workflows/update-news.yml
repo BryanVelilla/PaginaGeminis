@@ -1,0 +1,43 @@
+name: Actualización Diaria de Noticias de Ciberseguridad y Redes
+
+on:
+  schedule:
+    # Se ejecuta todos los días a las 06:00 UTC (01:00 AM hora Colombia / 08:00 AM España)
+    - cron: '0 6 * * *'
+  # Permite ejecutar el flujo manualmente desde la pestaña Actions en GitHub
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-cyber-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Instalar dependencias
+        run: npm ci
+
+      - name: Ejecutar script recolector de noticias
+        run: npm run update-news
+
+      - name: Confirmar y subir cambios si hay nuevas noticias
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/news.json
+          if git diff --staged --quiet; then
+            echo "No hay noticias nuevas para actualizar el día de hoy."
+          else
+            git commit -m "chore(news): auto-update cybersecurity & networking feeds [skip ci]"
+            git push
+            echo "Noticias actualizadas y publicadas correctamente."
+          fi
