@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-03T11:15:15.906Z",
+  "lastUpdated": "2026-10-04T11:55:05.111Z",
   "totalItems": 24,
   "sources": [
     "INCIBE",
@@ -10,6 +10,62 @@
     "WeLiveSecurity (ESET)"
   ],
   "items": [
+    {
+      "id": "the-hacker-news-1791098525000-90",
+      "title": "ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members",
+      "summary": "A suspected member of the ShinyHunters digital extortion group, who goes by the online alias \"Rey,\" has been allegedly detained by authorities in Jordan, Reuters reported, citing three people familiar with the matter....",
+      "url": "https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com",
+      "category": "cybersecurity",
+      "categoryLabel": "Ciberseguridad",
+      "pubDate": "2026-10-04T07:22:05.000Z",
+      "timestamp": 1791098525000,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "badge": "Breaking"
+    },
+    {
+      "id": "the-hacker-news-1791098432000-79",
+      "title": "China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing",
+      "summary": "A new China-nexus cyber espionage group known as TA419 has been attributed to multiple credential phishing campaigns targeting artificial intelligence (AI) experts working for U.S. think tanks, universities, and legal...",
+      "url": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com",
+      "category": "threat-intel",
+      "categoryLabel": "Threat Intel",
+      "pubDate": "2026-10-04T07:20:32.000Z",
+      "timestamp": 1791098432000,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "badge": "Malware"
+    },
+    {
+      "id": "the-hacker-news-1791038326000-73",
+      "title": "MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics",
+      "summary": "The U.K.'s domestic intelligence and security agency has warned that more than 100 academics have helped China boost its intelligence gathering efforts on behalf of Beijing's state security service. In a \"Security...",
+      "url": "https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com",
+      "category": "cybersecurity",
+      "categoryLabel": "Ciberseguridad",
+      "pubDate": "2026-10-03T14:38:46.000Z",
+      "timestamp": 1791038326000,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "badge": "Breaking"
+    },
+    {
+      "id": "the-hacker-news-1791038193000-81",
+      "title": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
+      "summary": "The suspected China-linked threat actor known as Warlock is still continuing to weaponize Microsoft SharePoint vulnerabilities, likely both old and new, in attacks targeting organizations in Portuguese- and...",
+      "url": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com",
+      "category": "vulnerability",
+      "categoryLabel": "Vulnerabilidades",
+      "pubDate": "2026-10-03T14:36:33.000Z",
+      "timestamp": 1791038193000,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "badge": "CVE / Patch"
+    },
     {
       "id": "the-hacker-news-1791025200000-75",
       "title": "The State of Cybersecurity in 2026: Key Segments, Insights, and Innovations",
@@ -289,62 +345,6 @@
       "timestamp": 1790943795000,
       "author": "info@thehackernews.com (The Hacker News)",
       "badge": "Breaking"
-    },
-    {
-      "id": "cisa-advisories-1790942400000-56",
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-102489 Zammad GmbH Zammad Session Fixation Vulnerability CVE-2026-102490...",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/10/02/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "source": "CISA Advisories",
-      "sourceUrl": "https://www.cisa.gov",
-      "category": "vulnerability",
-      "categoryLabel": "Vulnerabilidades",
-      "pubDate": "2026-10-02T12:00:00.000Z",
-      "timestamp": 1790942400000,
-      "author": "CISA",
-      "badge": "CVE / Patch"
-    },
-    {
-      "id": "the-hacker-news-1790940600000-91",
-      "title": "Why CISOs Struggle to Answer the Board's Three Hardest Questions, and How to Fix the Report",
-      "summary": "The quarterly board meeting is two weeks out. The security team is pulling exports from the identity provider, the cloud posture tool, the vulnerability scanner, the SIEM and the EDR console. Someone is building a...",
-      "url": "https://thehackernews.com/2026/10/why-cisos-struggle-to-answer-boards.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com",
-      "category": "vulnerability",
-      "categoryLabel": "Vulnerabilidades",
-      "pubDate": "2026-10-02T11:30:00.000Z",
-      "timestamp": 1790940600000,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "badge": "CVE / Patch"
-    },
-    {
-      "id": "incibe-1790937196000-31",
-      "title": "Seis nuevos avisos de seguridad",
-      "summary": "Seis nuevos avisos de seguridad Índice Múltiples vulnerabilidades en la aplicación de Repasat Path Traversal en FortiMail de Fortinet Múltiples vulnerabilidades en Core Privileged Access Manager de Fortra Ausencia de...",
-      "url": "https://www.incibe.es/node/669982",
-      "source": "INCIBE",
-      "sourceUrl": "https://www.incibe.es",
-      "category": "vulnerability",
-      "categoryLabel": "Vulnerabilidades",
-      "pubDate": "2026-10-02T10:33:16.000Z",
-      "timestamp": 1790937196000,
-      "author": "INCIBE",
-      "badge": "CVE / Patch"
-    },
-    {
-      "id": "incibe-1790936099000-122",
-      "title": "Interrupción de la infraestructura de EvilTokens, una plataforma de ciberdelincuencia asistida por inteligencia artificial",
-      "summary": "Interrupción de la infraestructura de EvilTokens, una plataforma de ciberdelincuencia asistida por inteligencia artificial 02/10/2026 Vie, 02/10/2026 - 12:14 EvilTokens comenzó a operar en febrero de 2026 y, durante los...",
-      "url": "https://www.incibe.es/incibe-cert/publicaciones/bitacora-de-seguridad/interrupcion-de-la-infraestructura-de-eviltokens-una-plataforma-de",
-      "source": "INCIBE",
-      "sourceUrl": "https://www.incibe.es",
-      "category": "threat-intel",
-      "categoryLabel": "Threat Intel",
-      "pubDate": "2026-10-02T10:14:59.000Z",
-      "timestamp": 1790936099000,
-      "author": "INCIBE",
-      "badge": "Malware"
     }
   ]
 }
