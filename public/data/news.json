@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T12:04:03.527Z",
+  "lastUpdated": "2026-10-11T12:17:10.925Z",
   "totalItems": 24,
   "sources": [
     "INCIBE",
@@ -10,6 +10,34 @@
     "WeLiveSecurity (ESET)"
   ],
   "items": [
+    {
+      "id": "the-hacker-news-1791692674000-78",
+      "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
+      "summary": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword. \"Compared with the variants we usually observe, P7 reduces its on-device footprint,...",
+      "url": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com",
+      "category": "vulnerability",
+      "categoryLabel": "Vulnerabilidades",
+      "pubDate": "2026-10-11T04:24:34.000Z",
+      "timestamp": 1791692674000,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "badge": "CVE / Patch"
+    },
+    {
+      "id": "incibe-1791666001000-27",
+      "title": "Boletín de vulnerabilidades",
+      "summary": "Boletín de vulnerabilidades Vulnerabilidades con productos recientemente documentados: No hay vulnerabilidades nuevas para los productos a los que está suscrito. Otras vulnerabilidades de los productos a los que usted...",
+      "url": "https://www.incibe.es/node/673785",
+      "source": "INCIBE",
+      "sourceUrl": "https://www.incibe.es",
+      "category": "vulnerability",
+      "categoryLabel": "Vulnerabilidades",
+      "pubDate": "2026-10-10T21:00:01.000Z",
+      "timestamp": 1791666001000,
+      "author": "INCIBE",
+      "badge": "CVE / Patch"
+    },
     {
       "id": "the-hacker-news-1791630000000-95",
       "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
@@ -93,20 +121,6 @@
       "timestamp": 1791567926000,
       "author": "info@thehackernews.com (The Hacker News)",
       "badge": "Breaking"
-    },
-    {
-      "id": "the-hacker-news-1791563395000-78",
-      "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
-      "summary": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword. \"Compared with the variants we usually observe, P7 reduces its on-device footprint,...",
-      "url": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com",
-      "category": "vulnerability",
-      "categoryLabel": "Vulnerabilidades",
-      "pubDate": "2026-10-09T16:29:55.000Z",
-      "timestamp": 1791563395000,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "badge": "CVE / Patch"
     },
     {
       "id": "the-hacker-news-1791552173000-73",
@@ -330,20 +344,6 @@
       "pubDate": "2026-10-08T15:00:39.000Z",
       "timestamp": 1791471639000,
       "author": "Jessica (Bair) Oppenheimer",
-      "badge": "Networking"
-    },
-    {
-      "id": "cisco-blogs-1791471629000-60",
-      "title": "Splunk .conf26: Tracking the Triage Agent in the Agentic SOC",
-      "summary": "How Cisco used Splunk as the SOC data platform at .conf26 to unify security telemetry and track the Splunk AI Triage Agent with human-validated workflows.",
-      "url": "https://blogs.cisco.com/security/conf26-agentic-soc-triage-agent",
-      "source": "Cisco Blogs",
-      "sourceUrl": "https://blogs.cisco.com",
-      "category": "networking",
-      "categoryLabel": "Redes & Protocolos",
-      "pubDate": "2026-10-08T15:00:29.000Z",
-      "timestamp": 1791471629000,
-      "author": "Christian Cloutier",
       "badge": "Networking"
     }
   ]
