@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T10:17:38.214Z",
+  "lastUpdated": "2026-10-18T10:33:28.489Z",
   "totalItems": 24,
   "sources": [
     "INCIBE",
@@ -10,6 +10,34 @@
     "WeLiveSecurity (ESET)"
   ],
   "items": [
+    {
+      "id": "the-hacker-news-1792311782000-82",
+      "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
+      "summary": "ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to the application...",
+      "url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com",
+      "category": "cybersecurity",
+      "categoryLabel": "Ciberseguridad",
+      "pubDate": "2026-10-18T08:23:02.000Z",
+      "timestamp": 1792311782000,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "badge": "Breaking"
+    },
+    {
+      "id": "the-hacker-news-1792235516000-77",
+      "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
+      "summary": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX. The package, named \"imgdecode,\" was uploaded to the package...",
+      "url": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com",
+      "category": "cybersecurity",
+      "categoryLabel": "Ciberseguridad",
+      "pubDate": "2026-10-17T11:11:56.000Z",
+      "timestamp": 1792235516000,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "badge": "Breaking"
+    },
     {
       "id": "the-hacker-news-1792217806000-86",
       "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
@@ -291,20 +319,6 @@
       "badge": "Alerta"
     },
     {
-      "id": "the-hacker-news-1792126776000-83",
-      "title": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions",
-      "summary": "A suspected advanced threat actor has been observed exploiting a security flaw in Fortinet FortiOS to deliver a previously unreported memory-resident ARM64 malware known as PEERSTITCH. The attack involves the...",
-      "url": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com",
-      "category": "networking",
-      "categoryLabel": "Redes & Protocolos",
-      "pubDate": "2026-10-16T04:59:36.000Z",
-      "timestamp": 1792126776000,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "badge": "Redes"
-    },
-    {
       "id": "cisco-blogs-1792101620000-91",
       "title": "The Quantum Security Transition: A Policy Agenda for Post-Quantum Readiness in Asia Pacific",
       "summary": "Governments should treat quantum risk as a national resilience challenge, integrating post-quantum cryptography into cybersecurity strategies and procurement to protect critical infrastructure and ensure long-term...",
@@ -317,20 +331,6 @@
       "timestamp": 1792101620000,
       "author": "Sarah Sloan",
       "badge": "Networking"
-    },
-    {
-      "id": "the-hacker-news-1792095876000-77",
-      "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
-      "summary": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and...",
-      "url": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com",
-      "category": "vulnerability",
-      "categoryLabel": "Vulnerabilidades",
-      "pubDate": "2026-10-15T20:24:36.000Z",
-      "timestamp": 1792095876000,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "badge": "CVE / Patch"
     },
     {
       "id": "cloudflare-1792084272000-39",
