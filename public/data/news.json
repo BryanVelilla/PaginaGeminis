@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T10:28:59.910Z",
+  "lastUpdated": "2026-10-25T10:55:17.811Z",
   "totalItems": 24,
   "sources": [
     "INCIBE",
@@ -10,6 +10,62 @@
     "WeLiveSecurity (ESET)"
   ],
   "items": [
+    {
+      "id": "the-hacker-news-1792911269000-78",
+      "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
+      "summary": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models. \"Based on the current...",
+      "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com",
+      "category": "vulnerability",
+      "categoryLabel": "Vulnerabilidades",
+      "pubDate": "2026-10-25T06:54:29.000Z",
+      "timestamp": 1792911269000,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "badge": "CVE / Patch"
+    },
+    {
+      "id": "the-hacker-news-1792840169000-94",
+      "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+      "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli....",
+      "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com",
+      "category": "vulnerability",
+      "categoryLabel": "Vulnerabilidades",
+      "pubDate": "2026-10-24T11:09:29.000Z",
+      "timestamp": 1792840169000,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "badge": "CVE / Patch"
+    },
+    {
+      "id": "the-hacker-news-1792839813000-87",
+      "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+      "summary": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python...",
+      "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com",
+      "category": "cybersecurity",
+      "categoryLabel": "Ciberseguridad",
+      "pubDate": "2026-10-24T11:03:33.000Z",
+      "timestamp": 1792839813000,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "badge": "Breaking"
+    },
+    {
+      "id": "the-hacker-news-1792838193000-86",
+      "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
+      "summary": "Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on...",
+      "url": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com",
+      "category": "cybersecurity",
+      "categoryLabel": "Ciberseguridad",
+      "pubDate": "2026-10-24T10:36:33.000Z",
+      "timestamp": 1792838193000,
+      "author": "info@thehackernews.com (The Hacker News)",
+      "badge": "Breaking"
+    },
     {
       "id": "the-hacker-news-1792832664000-105",
       "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
@@ -23,20 +79,6 @@
       "timestamp": 1792832664000,
       "author": "info@thehackernews.com (The Hacker News)",
       "badge": "Redes"
-    },
-    {
-      "id": "the-hacker-news-1792831556000-94",
-      "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
-      "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli....",
-      "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com",
-      "category": "vulnerability",
-      "categoryLabel": "Vulnerabilidades",
-      "pubDate": "2026-10-24T08:45:56.000Z",
-      "timestamp": 1792831556000,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "badge": "CVE / Patch"
     },
     {
       "id": "the-hacker-news-1792823157000-89",
@@ -260,48 +302,6 @@
       "pubDate": "2026-10-23T12:00:00.000Z",
       "timestamp": 1792756800000,
       "author": "CISA",
-      "badge": "CVE / Patch"
-    },
-    {
-      "id": "the-hacker-news-1792754743000-82",
-      "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
-      "summary": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws. The new issue, assigned CVE-2026-115560, affects only web...",
-      "url": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com",
-      "category": "vulnerability",
-      "categoryLabel": "Vulnerabilidades",
-      "pubDate": "2026-10-23T11:25:43.000Z",
-      "timestamp": 1792754743000,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "badge": "CVE / Patch"
-    },
-    {
-      "id": "the-hacker-news-1792753883000-82",
-      "title": "Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
-      "summary": "The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year. According to ESET, the attack involved...",
-      "url": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com",
-      "category": "threat-intel",
-      "categoryLabel": "Threat Intel",
-      "pubDate": "2026-10-23T11:11:23.000Z",
-      "timestamp": 1792753883000,
-      "author": "info@thehackernews.com (The Hacker News)",
-      "badge": "Malware"
-    },
-    {
-      "id": "the-hacker-news-1792748160000-96",
-      "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
-      "summary": "Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open. The flaw, CVE-2026-112900, is in the way Pillow...",
-      "url": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com",
-      "category": "vulnerability",
-      "categoryLabel": "Vulnerabilidades",
-      "pubDate": "2026-10-23T09:36:00.000Z",
-      "timestamp": 1792748160000,
-      "author": "info@thehackernews.com (The Hacker News)",
       "badge": "CVE / Patch"
     },
     {
