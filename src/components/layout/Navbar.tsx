@@ -1,4 +1,12 @@
-const navigation = ['Inicio', 'Semillero', 'Noticias', 'Proyectos', 'Comunidad']
+import { UserMenu } from '../auth/UserMenu'
+
+const navigation = [
+  { label: 'Inicio', href: '#inicio' },
+  { label: 'Semillero', href: '#semillero' },
+  { label: 'Integrantes', href: '#integrantes' },
+  { label: 'Investigaciones', href: '#investigaciones' },
+  { label: 'Noticias', href: '#noticias' },
+]
 
 export function Navbar() {
   return (
@@ -11,11 +19,13 @@ export function Navbar() {
 
         <div className="nav-links">
           {navigation.map((item) => (
-            <a href={item === 'Inicio' ? '#inicio' : `#${item.toLowerCase()}`} key={item}>{item}</a>
+            <a href={item.href} key={item.label}>{item.label}</a>
           ))}
         </div>
 
-        <a className="nav-cta" href="#comunidad">Unirme</a>
+        <div className="nav-right-actions">
+          <UserMenu />
+        </div>
       </nav>
     </header>
   )

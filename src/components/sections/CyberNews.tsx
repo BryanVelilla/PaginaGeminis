@@ -282,10 +282,10 @@ export function CyberNews() {
         {!loading && !error && filteredItems.length > 0 && (
           <>
             <div className="news-cards-grid">
-              {filteredItems.slice(0, visibleCount).map((item) => {
+              {filteredItems.slice(0, visibleCount).map((item, index) => {
                 const sourceStyle = getSourceColor(item.source)
                 return (
-                  <article key={item.id} className="news-card">
+                  <article key={`${item.id}-${index}`} className="news-card">
                     {/* Borde superior sutil con acento */}
                     <div className="card-top-indicator" />
 

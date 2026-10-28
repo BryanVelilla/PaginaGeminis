@@ -136,7 +136,8 @@ async function fetchAllNews() {
 
         const classification = classifyArticle(item.title, cleanSummary, feed);
 
-        const id = `${feed.name.toLowerCase().replace(/[^a-z0-9]/g, '-')}-${timestamp}-${Math.abs(item.title.length)}`;
+        const urlSlug = (item.link || '').split('/').filter(Boolean).pop() || Math.random().toString(36).substring(2, 7);
+        const id = `${feed.name.toLowerCase().replace(/[^a-z0-9]/g, '-')}-${timestamp}-${urlSlug.replace(/[^a-z0-9]/g, '').slice(0, 20)}`;
 
         allItems.push({
           id,

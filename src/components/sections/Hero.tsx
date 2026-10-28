@@ -1,18 +1,37 @@
-import { CipherField } from '../visuals/CipherField'
+import { SecurityGlobe } from '../visuals/SecurityGlobe'
 
 export function Hero() {
   return (
-    <section className="hero" id="inicio">
-      <div className="hero-content">
-        <p className="kicker">Ciberseguridad en movimiento</p>
-        <h1>Donde las ideas<br /><span>aprenden a proteger.</span></h1>
-        <p className="hero-copy">Una comunidad para explorar, investigar y crear soluciones que hacen más seguro lo digital.</p>
-        <div className="hero-actions">
-          <a className="button button-primary" href="#semillero">Conocer el semillero</a>
-          <a className="text-link" href="#semillero">Explorar investigación <span aria-hidden="true">↗</span></a>
+    <section className="hero-connected" id="inicio">
+      <div className="hero-grid-container">
+        {/* Left Column: Clean, editorial, human typography */}
+        <div className="hero-typography-col">
+          <h1 className="hero-title-connected">
+            Ciberseguridad<br />
+            Conectada.
+          </h1>
+
+          <p className="hero-description">
+            Investigación formativa y desarrollo tecnológico en seguridad ofensiva, criptografía
+            aplicada y defensa de redes globales. Blindando infraestructuras críticas e impulsando el
+            talento desde CECAR para el mundo.
+          </p>
+
+          <div className="hero-cta-group">
+            <a className="hero-btn-primary" href="#investigaciones">
+              Explorar Investigaciones
+            </a>
+            <a className="hero-btn-ghost" href="#integrantes">
+              Conocer Integrantes <span className="arrow-icon" aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+
+        {/* Right Column: 3D Rotating Security Globe */}
+        <div className="hero-globe-col">
+          <SecurityGlobe />
         </div>
       </div>
-      <CipherField />
     </section>
   )
 }
