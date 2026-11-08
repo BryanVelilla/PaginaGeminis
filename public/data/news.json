@@ -1,8 +1,7 @@
 {
-  "lastUpdated": "2026-11-07T12:37:26.594Z",
+  "lastUpdated": "2026-11-08T12:54:42.786Z",
   "totalItems": 24,
   "sources": [
-    "INCIBE",
     "The Hacker News",
     "CISA Advisories",
     "Cloudflare",
@@ -10,20 +9,6 @@
     "WeLiveSecurity (ESET)"
   ],
   "items": [
-    {
-      "id": "incibe-1794034801000-692076",
-      "title": "Boletín de vulnerabilidades",
-      "summary": "Boletín de vulnerabilidades Vulnerabilidades con productos recientemente documentados: No hay vulnerabilidades nuevas para los productos a los que está suscrito. Otras vulnerabilidades de los productos a los que usted...",
-      "url": "https://www.incibe.es/node/692076",
-      "source": "INCIBE",
-      "sourceUrl": "https://www.incibe.es",
-      "category": "vulnerability",
-      "categoryLabel": "Vulnerabilidades",
-      "pubDate": "2026-11-07T07:00:01.000Z",
-      "timestamp": 1794034801000,
-      "author": "INCIBE",
-      "badge": "CVE / Patch"
-    },
     {
       "id": "the-hacker-news-1794033857000-claudecodesdontaskag",
       "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
@@ -39,20 +24,6 @@
       "badge": "Breaking"
     },
     {
-      "id": "incibe-1794019202000-692049",
-      "title": "Boletín de vulnerabilidades",
-      "summary": "Boletín de vulnerabilidades Vulnerabilidades con productos recientemente documentados: No hay vulnerabilidades nuevas para los productos a los que está suscrito. Otras vulnerabilidades de los productos a los que usted...",
-      "url": "https://www.incibe.es/node/692049",
-      "source": "INCIBE",
-      "sourceUrl": "https://www.incibe.es",
-      "category": "vulnerability",
-      "categoryLabel": "Vulnerabilidades",
-      "pubDate": "2026-11-07T02:40:02.000Z",
-      "timestamp": 1794019202000,
-      "author": "INCIBE",
-      "badge": "CVE / Patch"
-    },
-    {
       "id": "cisco-blogs-1794014089000-fromconnectivitytoco",
       "title": "From Connectivity to Continuity: Cisco URWB for Autonomous Work Vehicles",
       "summary": "Learn how Cisco Ultra-Reliable Wireless Backhaul (URWB) helps enable reliable connectivity for Honda's Autonomous Work Vehicle (AWV), supporting perimeter inspection and other mission-critical operations in demanding...",
@@ -65,20 +36,6 @@
       "timestamp": 1794014089000,
       "author": "David Eror",
       "badge": "Networking"
-    },
-    {
-      "id": "incibe-1794003601000-691844",
-      "title": "Boletín de vulnerabilidades",
-      "summary": "Boletín de vulnerabilidades Vulnerabilidades con productos recientemente documentados: No hay vulnerabilidades nuevas para los productos a los que está suscrito. Otras vulnerabilidades de los productos a los que usted...",
-      "url": "https://www.incibe.es/node/691844",
-      "source": "INCIBE",
-      "sourceUrl": "https://www.incibe.es",
-      "category": "vulnerability",
-      "categoryLabel": "Vulnerabilidades",
-      "pubDate": "2026-11-06T22:20:01.000Z",
-      "timestamp": 1794003601000,
-      "author": "INCIBE",
-      "badge": "CVE / Patch"
     },
     {
       "id": "cisco-blogs-1793993741000-howciscobuiltanenter",
@@ -263,48 +220,6 @@
       "badge": "Breaking"
     },
     {
-      "id": "incibe-1793964058000-691646",
-      "title": "Nuevas publicaciones: Configuraciones seguras para proteger tu correo electrónico y Caso Real del 017",
-      "summary": "Nuevas publicaciones: Configuraciones seguras para proteger tu correo electrónico y Caso Real del 017 Configuraciones seguras para proteger tu correo electrónico Para evitar estos riesgos, es importante adoptar una...",
-      "url": "https://www.incibe.es/node/691646",
-      "source": "INCIBE",
-      "sourceUrl": "https://www.incibe.es",
-      "category": "advisory",
-      "categoryLabel": "Aviso Oficial",
-      "pubDate": "2026-11-06T11:20:58.000Z",
-      "timestamp": 1793964058000,
-      "author": "INCIBE",
-      "badge": "Oficial"
-    },
-    {
-      "id": "incibe-1793956665000-691606",
-      "title": "Dos actualizaciones de avisos de seguridad",
-      "summary": "Dos actualizaciones de avisos de seguridad Índice [Actualización 06/11/2026] Múltiples vulnerabilidades en productos de Festo [Actualización 06/11/2026] Múltiples vulnerabilidades en productos de Siemens [Actualización...",
-      "url": "https://www.incibe.es/node/691606",
-      "source": "INCIBE",
-      "sourceUrl": "https://www.incibe.es",
-      "category": "vulnerability",
-      "categoryLabel": "Vulnerabilidades",
-      "pubDate": "2026-11-06T09:17:45.000Z",
-      "timestamp": 1793956665000,
-      "author": "INCIBE",
-      "badge": "CVE / Patch"
-    },
-    {
-      "id": "incibe-1793956636000-691605",
-      "title": "Dos nuevos avisos de seguridad y una actualización",
-      "summary": "Dos nuevos avisos de seguridad y una actualización Índice Inyección SQL en SIREC de Atmira Omisión de autenticación por contraseña en OpenSSH de Alpine Linux [Actualización 06/11/2026] Impacto de vulnerabilidades...",
-      "url": "https://www.incibe.es/node/691605",
-      "source": "INCIBE",
-      "sourceUrl": "https://www.incibe.es",
-      "category": "vulnerability",
-      "categoryLabel": "Vulnerabilidades",
-      "pubDate": "2026-11-06T09:17:16.000Z",
-      "timestamp": 1793956636000,
-      "author": "INCIBE",
-      "badge": "CVE / Patch"
-    },
-    {
       "id": "the-hacker-news-1793952289000-chainalysisbreachexp",
       "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
       "summary": "Blockchain analysis firm Chainalysis has revealed that its ongoing investigation into the agentic cyber attack targeting its systems also exposed names, usernames, password hashes and live tokens for all users. \"While...",
@@ -344,6 +259,90 @@
       "pubDate": "2026-11-06T05:39:10.000Z",
       "timestamp": 1793943550000,
       "author": "info@thehackernews.com (The Hacker News)",
+      "badge": "CVE / Patch"
+    },
+    {
+      "id": "cisco-blogs-1793905228000-partnersummit26build",
+      "title": "Partner Summit 26: Building Trusted AI at Scale, Together",
+      "summary": "At Partner Summit 26, partners demonstrated their readiness to turn AI ambition into business outcomes. By prioritizing security, observability, and ROI, we’re closing the \"trust gap\" and helping customers thrive in the...",
+      "url": "https://blogs.cisco.com/partner/partner-summit-26-building-trusted-ai-at-scale-together",
+      "source": "Cisco Blogs",
+      "sourceUrl": "https://blogs.cisco.com",
+      "category": "networking",
+      "categoryLabel": "Redes & Protocolos",
+      "pubDate": "2026-11-05T19:00:28.000Z",
+      "timestamp": 1793905228000,
+      "author": "Shannon Leininger",
+      "badge": "Networking"
+    },
+    {
+      "id": "cloudflare-1793898184000-trustedagentdelegati",
+      "title": "Agents aren’t humans (but they kinda are)",
+      "summary": "AI agents act for millions, but servers see intermediaries that strip user visibility. This post defines the problem space and introduces a collaborative approach to safely identifying, allowing, and managing this...",
+      "url": "https://blog.cloudflare.com/trusted-agent-delegation/",
+      "source": "Cloudflare",
+      "sourceUrl": "https://blog.cloudflare.com",
+      "category": "networking",
+      "categoryLabel": "Redes & Cloud",
+      "pubDate": "2026-11-05T17:03:04.000Z",
+      "timestamp": 1793898184000,
+      "author": "Bryan Becker",
+      "badge": "Infraestructura"
+    },
+    {
+      "id": "cisco-blogs-1793894406000-firewallingtheaieraw",
+      "title": "Firewalling the AI Era: Why the Network Still Decides",
+      "summary": "As AI agents act across systems, firewalls reveal what they reach, enforce policy at boundaries, and help contain the risks of autonomous action.",
+      "url": "https://blogs.cisco.com/security/firewalling-the-ai-era-why-the-network-still-decides",
+      "source": "Cisco Blogs",
+      "sourceUrl": "https://blogs.cisco.com",
+      "category": "vulnerability",
+      "categoryLabel": "Vulnerabilidades",
+      "pubDate": "2026-11-05T16:00:06.000Z",
+      "timestamp": 1793894406000,
+      "author": "Anton Chuvakin",
+      "badge": "CVE / Patch"
+    },
+    {
+      "id": "cisco-blogs-1793890827000-25yearsofempowerment",
+      "title": "Bridging the Digital Divide: 25 Years of Empowerment in Panama",
+      "summary": "Cisco Networking Academy celebrates its 25-year presence in Panama. From partnering with indigenous communities to setting new educational standards for technical education, we’re bridging the country's digital divide...",
+      "url": "https://blogs.cisco.com/learning/25-years-of-empowerment-in-panama",
+      "source": "Cisco Blogs",
+      "sourceUrl": "https://blogs.cisco.com",
+      "category": "networking",
+      "categoryLabel": "Redes & Protocolos",
+      "pubDate": "2026-11-05T15:00:27.000Z",
+      "timestamp": 1793890827000,
+      "author": "Rebeca De La Vega",
+      "badge": "Networking"
+    },
+    {
+      "id": "cisa-advisories-1793880000000-usgovernmentpartners",
+      "title": "US Government Partners Urge Hardening Industrial Refrigeration and Cold Chain Monitoring Systems",
+      "summary": "Overview The Cybersecurity and Infrastructure Security Agency (CISA), Federal Bureau of Investigation (FBI), Health and Human Services (HHS), U.S. Department of Agriculture (USDA), and the Department of Transportation...",
+      "url": "https://www.cisa.gov/resources-tools/resources/us-government-partners-urge-hardening-industrial-refrigeration-and-cold-chain-monitoring-systems",
+      "source": "CISA Advisories",
+      "sourceUrl": "https://www.cisa.gov",
+      "category": "vulnerability",
+      "categoryLabel": "Vulnerabilidades",
+      "pubDate": "2026-11-05T12:00:00.000Z",
+      "timestamp": 1793880000000,
+      "author": "CISA",
+      "badge": "CVE / Patch"
+    },
+    {
+      "id": "cisa-advisories-1793880000000-postquantumquestions",
+      "title": "Post-Quantum Questions to Ask Your Vendors",
+      "summary": "CISA, the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC) and the National Security Agency (NSA) released joint guidance and an accompanying quick-reference list to help organizations...",
+      "url": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
+      "source": "CISA Advisories",
+      "sourceUrl": "https://www.cisa.gov",
+      "category": "vulnerability",
+      "categoryLabel": "Vulnerabilidades",
+      "pubDate": "2026-11-05T12:00:00.000Z",
+      "timestamp": 1793880000000,
+      "author": "CISA",
       "badge": "CVE / Patch"
     }
   ]
